@@ -1,0 +1,212 @@
+body{
+	background-image:  url(../images/imagen.jpg);
+}
+.carta{
+	position: absolute;
+	background-color:  rgb(220,220,220);
+	border: 2px ridge black;
+	border-radius: 10px;
+	width: 180px;
+	height: 260px;
+}
+
+.numeropalo{
+	font-size: 30px;
+	margin: 5px;
+	background-color: rgba(255,255,255,0);
+}
+.numeropaloinverso{
+	position: absolute;
+	font-size: 30px;
+	margin: 5px;
+	transform:rotate(180deg);
+	top: 180px;
+	left: 145px;
+	background-color: rgba(255,255,255,0);
+}
+.figura{
+	font-size: 60px;
+	position: absolute;
+	background-color: rgba(255,255,255,0);
+}
+@keyframes animacion_picas4{
+	0%{
+		top: 110px;
+		left: 20px;
+		transform: rotate(180deg);
+	}
+	100%{
+		top: 110px;
+		left: 630px;
+		transform: rotate(-5deg);
+		z-index:  2;
+	}
+}
+#picas4{
+	animation-name: animacion_picas4;
+	animation-duration: 4s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+	z-index: 3;
+	top: 110px;
+	left: 20px;
+	transform: rotate(180deg);
+}
+
+#picas4_1{
+	left: 30px;
+	bottom: 160px;
+}
+#picas4_2{
+	left: 105px;
+	bottom: 160px;
+}
+#picas4_3{
+	left: 30px;
+	bottom: 50px;
+	transform:rotate(180deg);
+}
+#picas4_4{
+	left: 105px;
+	bottom: 50px;
+	transform:rotate(180deg);
+}
+@keyframes animacion_treboles7{
+	0%{
+		top: 110px;
+		left: 20px;
+		transform: rotate(180deg);
+	}
+	50%{
+		z-index: 4;
+	}
+	100%{
+		top: 150px;
+		left: 685px;
+		transform: rotate(25deg);
+		z-index: 4;
+	}
+}
+#treboles7{
+	animation-name: animacion_treboles7;
+	animation-duration: 4s;
+	animation-delay: 7s;
+	animation-fill-mode: forwards;
+	z-index: 1;
+	top: 110px;
+	left: 20px;
+	transform: rotate(180deg);
+}
+
+#treboles7_1{
+	left: 30px;
+	bottom: 170px;
+}
+#treboles7_2{
+	left: 100px;
+	bottom: 170px;
+}
+#treboles7_3{
+	left: 30px;
+	bottom: 90px;
+}
+#treboles7_4{
+	left: 100px;
+	bottom: 90px;
+}
+#treboles7_5{
+	left: 65px;
+	bottom: 130px;
+}
+#treboles7_6{
+	left: 30px;
+	bottom: 20px;
+	transform:rotate(180deg);
+}
+#treboles7_7{
+	left: 100px;
+	bottom: 20px;
+	transform:rotate(180deg);
+}
+@keyframes animacion_corazones6{
+	0%{
+		top: 110px;
+		left: 20px;
+		transform: rotate(180deg);
+	}
+	100%{
+		top: 125px;
+		left: 660px;
+		transform: rotate(10deg);
+		z-index: 3;
+	}
+}
+#corazones6{
+	animation-name: animacion_corazones6;
+	animation-duration: 4s;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
+	color:  red;
+	z-index: 2;
+	top: 110px;
+	left: 20px;
+	transform: rotate(180deg);
+}
+
+#corazones6_1{
+	left: 30px;
+	bottom: 170px;
+}
+#corazones6_2{
+	left: 100px;
+	bottom: 170px;
+}
+#corazones6_3{
+	left: 30px;
+	bottom: 100px;
+}
+#corazones6_4{
+	left: 100px;
+	bottom: 100px;
+}
+#corazones6_5{
+	left: 30px;
+	bottom: 20px;
+	transform:rotate(180deg);
+}
+#corazones6_6{
+	left: 100px;
+	bottom: 20px;
+	transform:rotate(180deg);
+}
+@keyframes animacion_diamantesas{
+	0%{
+		top: 110px;
+		left: 20px;
+		transform: rotate(180deg);
+	}
+	100%{
+		top: 100px;
+		left: 600px;
+		transform: rotate(-20deg);
+		z-index: 1;
+	}
+}
+#diamantesas{
+	animation-name: animacion_diamantesas;
+	animation-duration: 4s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	color: red;
+	z-index: 4;
+	top: 110px;
+	left: 20px;
+	transform: rotate(180deg);
+}
+
+#diamantesas_1{
+	font-size: 130px;
+	left: 35px;
+	bottom: 60px;
+}
+
